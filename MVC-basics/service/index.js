@@ -1,6 +1,4 @@
 const { compile } = require("handlebars");
-const { response } = require("../../myapp/app");
-const { post } = require("../../myapp/routes");
 const User = require('../database/models/user');
 
 // class AppService {
