@@ -1,36 +1,6 @@
 const { compile } = require("handlebars");
 const User = require('../database/models/user');
 
-// class AppService {
-
-//     // getData(req, res) {
-//     //     // db.model.findOne(id)
-//     //     res.status(200).json({"message" : "ok!!!"});
-//     // }
-
-//     // createData(data) {
-//     //     //return db.model.save(data);
-//     // }
-
-//     // updateData(req, res) {
-//     //     res.status(200).json({});
-//     // }
-
-//     // deleteData(req, res) {
-//     //     res.status(200).json({});
-//     // }
-// }
-
-let user = [
-    {
-        username: 'srj',
-        email: 'srjtest@outlook.com'
-    },
-    {
-        username: 'cbr',
-        email: 'cloudbaron@outlook.com'
-    }
-];
 
 class AppService {
 
